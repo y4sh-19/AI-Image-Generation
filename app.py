@@ -8,6 +8,13 @@ import torch
 from torch import autocast
 from diffusers import StableDiffusionPipeline 
 
+'''
+Create a new folder with name authtoken.py
+Write the following in it
+
+auth_token = "YOUR HUGGING FACE AUTHENTICATION TOKEN"  //because of privacy reasons I won't be uploading my token
+'''
+
 # Create the app
 app = tk.Tk()
 app.geometry("532x632")
